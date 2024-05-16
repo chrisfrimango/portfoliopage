@@ -1,0 +1,202 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  background-color: #fcfcfc;
+  line-height: 1.6;
+  font-family: "inter", sans-serif;
+  font-size: 15px;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  appearance: none;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+// Colors
+
+$theme-colors: (
+  "primary": #454b4b,
+  "secondary": #d3d3d5,
+  "success": #187954,
+  "info": #3f7679,
+  "warning": #ac5b2c,
+  "danger": #88193a,
+  "light": #f4f2f2,
+  "dark": #3e3d3d,
+  "white": #ffffff,
+  "white2": #f5f0e6,
+  "wellow1": #d7b806,
+  "wellow2": #f2e641,
+  "wellow3": #f2eb88,
+  "sidebarcolor": #074040,
+  "home": #074040,
+  "black": #0a0908,
+  "black2": #131313,
+
+  // primary colors
+  "offgrey": #fcfcfc,
+  "easygrey": #000000,
+  "darkgrey": #6f6f6f,
+  "lime": #c4ed52,
+  "red": #ff5851,
+  "red2": #ff3b00,
+  "easyblack": #1c1b20,
+  "softgrey": #c7c7c7,
+  "blue": #060dc1,
+);
+
+// Buttons
+$btn-link-color: blue;
+$btn-link-hover-color: #c6e373;
+
+$font-size-base: 1rem;
+$h1-font-size: $font-size-base * 6.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+// spacers
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: (
+    $spacer * 0.25,
+  ),
+  2: (
+    $spacer * 0.5,
+  ),
+  3: $spacer,
+  // Standardstorlek
+  4:
+    (
+      $spacer * 1.5,
+    ),
+  5: (
+    $spacer * 3,
+  ),
+  6: (
+    $spacer * 10,
+  ),
+);
+
+// z.index
+
+$zindex-levels: (
+  n1: -1,
+  0: 0,
+  1: 1,
+  2: 2,
+  3: 3,
+  4: 1500,
+  5: 2000,
+);
+
+// Buttons
+
+// Offcanvas nav
+$offcanvas-color: map-get($theme-colors, "easyblack");
+$offcanvas-bg-color: map-get($theme-colors, "offgrey");
+$offcanvas-vertical-height: 100vh;
+$offcanvas-horizontal-width: 100vw;
+$offcanvas-margin-top: 4rem;
+$offcanvas-border-color: map-get($theme-colors, "darkgrey");
+$offcanvas-border-width: 0.5rem;
+// $offcanvas-transition-duration: 0.4s;
+
+// Shadows
+$box-shadow: 0 1rem 3rem rgba(map-get($theme-colors, "offgrey"), 0.175);
+// $box-shadow-sm: 0 0.125rem 0.25rem rgba($black, 0.075);
+// $box-shadow-lg: 0 1rem 3rem rgba($black, 0.175);
+// $box-shadow-inset: inset 0 1px 2px rgba($black, 0.075);
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter/Inter-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter/Inter-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter/Inter-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter/Inter-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter/Inter-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter/Inter-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter/Inter-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter/Inter-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter/Inter-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Handwritten";
+  src: url("./fonts/ReenieBeanie-Regular.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@import "bootstrap/scss/bootstrap";
