@@ -51,7 +51,7 @@ const hovered = ref({
 
 <template>
   <BNavbar class="bg-transparent" toggleable="lg">
-    <BNavbarBrand class="menu"
+    <BNavbarBrand class="menu pt-2"
       ><nuxt-link
         :to="{ hash: '#home' }"
         :external="true"

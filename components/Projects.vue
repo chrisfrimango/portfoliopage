@@ -179,7 +179,7 @@ const projects = [
                   target="blank"
                   >Puzzle game</a
                 >
-                <p class="font-monospace">React + Vite</p>
+                <!-- <p class="font-monospace">React + Vite</p> -->
               </div>
             </div>
           </div>
@@ -218,7 +218,7 @@ const projects = [
                   target="blank"
                   >E-commerce</a
                 >
-                <p class="font-monospace">Vue.js + Vite</p>
+                <!-- <p class="font-monospace">Vue.js + Vite</p> -->
               </div>
             </div>
           </div>
@@ -255,7 +255,7 @@ const projects = [
                   target="blank"
                   >Dice game</a
                 >
-                <p class="font-monospace">Js + socket.io</p>
+                <!-- <p class="font-monospace">Js + socket.io</p> -->
               </div>
             </div>
           </div>
@@ -294,7 +294,7 @@ const projects = [
                   target="blank"
                   >Music-player</a
                 >
-                <p class="font-monospace">Nuxt + tailwind</p>
+                <!-- <p class="font-monospace">Nuxt + tailwind</p> -->
               </div>
             </div>
           </div>
@@ -331,7 +331,7 @@ const projects = [
                   target="blank"
                   >My first UI</a
                 >
-                <p class="font-monospace">Js, Html, css</p>
+                <!-- <p class="font-monospace">Js, Html, css</p> -->
               </div>
             </div>
           </div>
