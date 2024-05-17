@@ -22,6 +22,13 @@ export default defineNuxtConfig({
     },
   },
   css: ["@/assets/main.scss"],
+  app: {
+    head: {
+      link: [
+        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }, // Länk till din favicon
+      ],
+    },
+  },
   runtimeConfig: {
     public: {
       motion: {

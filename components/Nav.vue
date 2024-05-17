@@ -51,12 +51,12 @@ const hovered = ref({
 
 <template>
   <BNavbar class="bg-transparent" toggleable="lg">
-    <BNavbarBrand class="menu pt-2"
+    <BNavbarBrand class="menu pt-3"
       ><nuxt-link
         :to="{ hash: '#home' }"
         :external="true"
         class="text-black2 ms-md-4 ms-2 fw-normal fs-6 text-decoration-none spacing pointer"
-        >Christoffer Friman.</nuxt-link
+        >Christoffer Friman</nuxt-link
       >
     </BNavbarBrand>
 

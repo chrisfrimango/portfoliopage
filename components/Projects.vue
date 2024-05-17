@@ -146,7 +146,7 @@ const projects = [
     >
       Selected works
     </h3>
-    <BContainer class="p-5">
+    <BContainer class="p-4 mb-6 mt-3">
       <BRow class="row-1 w-100 d-flex test" ref="rowRef1">
         <BCol class="h-100 custom-flex">
           <div class="img-container right">
@@ -505,6 +505,10 @@ const projects = [
   @media (max-width: 576px) {
     .img-container {
       width: 100%; // Säkerställer att bildcontainer fyller kolumnen
+    }
+
+    .text-container {
+      margin-bottom: 3rem;
     }
 
     .custom-flex {
