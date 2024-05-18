@@ -432,7 +432,7 @@ const projects = [
   .text-container {
     padding-top: 0.5rem;
     padding-right: 0.5rem;
-    transition: 1.3s;
+    transition: 1.5s;
 
     p {
       opacity: 0.3;
