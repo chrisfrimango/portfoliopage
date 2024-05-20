@@ -56,7 +56,7 @@ onMounted(() => {
           Developer in the making with a passion for creating.
         </h1>
         <h5 class="text-darkgrey fs-5 subtext">
-          Studying to become a full-stack ninja
+          Studying to become a [some stack] developer
         </h5>
       </BCol>
     </BRow>
