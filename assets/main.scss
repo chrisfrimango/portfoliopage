@@ -30,6 +30,20 @@ button {
   outline: none;
 }
 
+.ninjaMode {
+  filter: grayscale(100%);
+  transition: filter 0.5s ease-in-out;
+  -webkit-transition: filter 0.5s ease-in-out;
+  -moz-transition: filter 0.5s ease-in-out;
+  -ms-transition: filter 0.5s ease-in-out;
+  -o-transition: filter 0.5s ease-in-out;
+}
+
+.ninjaMode *:hover {
+  filter: none;
+  -webkit-filter: none;
+}
+
 // Colors
 
 $theme-colors: (

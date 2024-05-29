@@ -7,6 +7,7 @@ export const usePiniaStore = defineStore({
     transitionFinished: false,
     positionReached: false,
     visableAfterIntersection: false,
+    ninjamode: false,
   }),
   actions: {
     setVisibility(visible) {
