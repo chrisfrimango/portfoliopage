@@ -26,6 +26,11 @@ watch(buttonToggle, (newVal) => {
 
 <style lang="scss" scoped>
 .custom-width {
-  width: 150px;
+  width: 140px;
+  font-size: 0.8rem;
+
+  &:hover {
+    color: white !important;
+  }
 }
 </style>
